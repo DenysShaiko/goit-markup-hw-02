@@ -14,8 +14,9 @@ body{
 
 
 /*nav logo  */
+
 .nav-logo {
-    font-family: 'Oleo Script', cursive;
+    font-family: 'Oleo Script', sans-serif;
     font-family: Raleway;
     font-style: normal;
     font-weight: bold;
@@ -58,6 +59,11 @@ body{
     text-decoration: none;
 }
 
+.link:focus {
+    
+}
+
+
 .link:hover{
     color: var(--blue);
 }
@@ -70,11 +76,6 @@ body{
     letter-spacing: 0.02em;
     color: var(--blue);
     text-decoration: none;
-}
-
-a.active,
-a:hover {
-    color: var(--blue);
 }
 
 .contact-link{
@@ -92,9 +93,6 @@ a:hover {
 
 
 .hero{
-    font-family: Roboto;
-    font-style: normal;
-    font-weight: 900;
     font-size: 44px;
     line-height: 60px;
     text-transform: uppercase;
@@ -144,7 +142,6 @@ a:hover {
     
 }
 
-
 .team{
     background: #F5F4FA;
     list-style: none;
@@ -172,7 +169,6 @@ a:hover {
 }
 
 .h3{
-    font-family: Roboto;
     font-style: normal;
     font-weight: bold;
     font-size: 14px;
@@ -206,7 +202,7 @@ a:hover {
 }
 
 .contact-link-footer:hover{
-    color: var(--blue);
+    color: white;
     
 }
 
@@ -252,11 +248,7 @@ color: #FFFFFF;
     
 .nav-logo2-footer {
     
-    font-family: 'Raleway', sans-serif;
-    
-    font-family: Raleway;
-    font-style: normal;
-    font-weight: bold;
+
     font-size: 26px;
     line-height: 31px;
     color: #2196F3;
@@ -291,12 +283,21 @@ color: #FFFFFF;
     list-style: none;
 }
 
-.portfolio-h3{
-    
+.ptext-portf{
+    font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 30px;
+letter-spacing: 0.03em;
+color: #757575;
 }
 
-.ptext-portf{
-    font-size: 16px;
-    line-height: 30px;
-    color: #757575;
+.portfolio-h3{
+font-style: normal;
+font-weight: bold;
+font-size: 18px;
+line-height: 36px;
+letter-spacing: 0.06em;
+color: #212121;
+
 }
