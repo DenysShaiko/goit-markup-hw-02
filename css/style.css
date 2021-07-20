@@ -144,11 +144,9 @@ a:hover {
     
 }
 
-.section-team{
-    background: #F5F4FA;
-}
 
 .team{
+    background: #F5F4FA;
     list-style: none;
 }
 
