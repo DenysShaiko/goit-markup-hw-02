@@ -134,7 +134,6 @@ body{
 
 /* team */
 .teams{
-    font-family: Roboto;
     font-style: normal;
     font-weight: bold;
     font-size: 36px;
@@ -178,7 +177,6 @@ body{
 }
 
 .htext-team{
-    font-family: Roboto;
     font-style: normal;
     font-weight: 500;
     font-size: 16px;
@@ -186,7 +184,6 @@ body{
 }
 
 .ptext{
-    font-family: Roboto;
     font-style: normal;
     font-weight: normal;
     font-size: 14px;
@@ -214,10 +211,10 @@ body{
 }
 
 .footer-address{
-font-size: 14px;
-line-height: 24px;
-letter-spacing: 0.03em;
-color: #FFFFFF;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.03em;
+    color: #FFFFFF;
 }
 
 .footer{
