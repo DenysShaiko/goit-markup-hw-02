@@ -1,6 +1,17 @@
+
+/* Переменные */
+
+:root{
+    --blue: #2196F3
+}
+
+
+
+
 body{
     font-family: "Roboto", sans-serif;
 }
+
 
 /*nav logo  */
 .nav-logo {
@@ -27,7 +38,7 @@ body{
     font-weight: bold;
     font-size: 26px;
     line-height: 31px;
-    color: #2196F3;
+    color: var(--blue);
 }
 
 
@@ -39,7 +50,7 @@ body{
 }
 
 .link{
-    font-family: Roboto;
+
     font-style: normal;
     font-weight: 500;
     font-size: 14px;
@@ -50,7 +61,7 @@ body{
 }
 
 .link:hover{
-    color: #2196F3;
+    color: var(--blue);
 }
 
 .link-act{
@@ -59,22 +70,25 @@ body{
     font-size: 14px;
     line-height: 16px;
     letter-spacing: 0.02em;
-    color: #2196F3;
+    color: var(--blue);
     text-decoration: none;
 }
 
 a.active,
 a:hover {
-    color: #2196F3;
+    color: var(--blue);
 }
 
 .contact-link{
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.02em;
     color: #757575;
     text-decoration: none;
 }
 
 .contact-link:hover{
-    color: #2196F3;
+    color: var(--blue);
 }
 
 
@@ -99,9 +113,19 @@ a:hover {
 }
 
 .herobtn{
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 30px;
     color: white;
-    background: #2196F3;
+    background: var(--blue);
     
+}
+
+.herobtn:hover,:focus{
+    background: var(--blue);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
 }
 
 .whot{
@@ -120,6 +144,10 @@ a:hover {
     font-size: 36px;
     line-height: 42px;
     
+}
+
+.section-team{
+    background: #F5F4FA;
 }
 
 .team{
@@ -177,12 +205,12 @@ a:hover {
 .contact-link-footer{
     display: flex;
     margin-top: 10px;
-    color: #757575;
+    color: rgba(255, 255, 255, 0.6);
     text-decoration: none;
 }
 
 .contact-link-footer:hover{
-    color: #2196F3;
+    color: var(--blue);
     
 }
 
@@ -205,7 +233,6 @@ color: #FFFFFF;
     height: 252px;
     left: 0px;
     top: 2097px;
-    
     background: #2F303A;
     padding-top: 60px;
 }
@@ -242,22 +269,25 @@ color: #FFFFFF;
 /* Portf */
 
 .btns{
+    font-size: 16px;
+    line-height: 26px;
     list-style: none;
     
 }
 
 .btn{
     color: black;
+    background: #F5F4FA;
 }
 
 .btn:hover{
     color: white;
-    background-color: #2196F3;
+    background-color: var(--blue);
 }
 
 .btn-act{
     color: white;
-    background-color: #2196F3;
+    background-color: var(--blue);
 
 }
 
