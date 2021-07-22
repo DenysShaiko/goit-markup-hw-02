@@ -2,7 +2,11 @@
 /* Переменные */
 
 :root{
-    --blue: #2196F3
+    --blue: #2196F3;
+    --grey: #2F303A;
+    --grey2:#757575;
+    --white:#FFFFFF;
+    --black:#212121;
 }
 
 
@@ -22,7 +26,7 @@ body{
     font-weight: bold;
     font-size: 26px;
     line-height: 31px;
-    color: rgb(0, 0, 0);
+    color: var(--black);
     margin-left: 215px;
     margin-top: 60px;
     text-decoration: none;
@@ -55,7 +59,7 @@ body{
     font-size: 14px;
     line-height: 16px;
     letter-spacing: 0.02em;
-    color: black;
+    color: var(--black);
     text-decoration: none;
 }
 
@@ -79,10 +83,12 @@ body{
 }
 
 .contact-link{
+    font-style: normal;
+    font-weight: 500;
     font-size: 14px;
     line-height: 16px;
     letter-spacing: 0.02em;
-    color: #757575;
+    color: var(--grey2);
     text-decoration: none;
 }
 
@@ -96,8 +102,8 @@ body{
     font-size: 44px;
     line-height: 60px;
     text-transform: uppercase;
-    background: #2F303A;
-    color: white;
+    background-color: var(--grey);
+    color: var(--white);
     text-align: center;
 }
 
@@ -113,12 +119,14 @@ body{
     font-weight: bold;
     font-size: 16px;
     line-height: 30px;
-    color: white;
-    background: var(--blue);
+    color: var(--white);
+    background: #188CE8;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
     
 }
 
-.herobtn:hover,:focus{
+.herobtn:hover, .herobtn:focus{
     background: var(--blue);
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
     border-radius: 4px;
@@ -151,7 +159,7 @@ body{
     text-align: center;
     font-size: 16px;
     line-height: 19px;
-    color: #757575;
+    color: var(--grey2);
 }
 
 .htext-team{
@@ -188,10 +196,15 @@ body{
     font-weight: normal;
     font-size: 14px;
     line-height: 24px;
-    color: #757575;
+    color: var(--grey2);
 }
 
 .contact-link-footer{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.02em;
     display: flex;
     margin-top: 10px;
     color: rgba(255, 255, 255, 0.6);
@@ -199,7 +212,7 @@ body{
 }
 
 .contact-link-footer:hover{
-    color: white;
+    color: var(--white);
     
 }
 
@@ -211,10 +224,11 @@ body{
 }
 
 .footer-address{
+    font-style: normal;
+    font-weight: normal;
     font-size: 14px;
     line-height: 24px;
-    letter-spacing: 0.03em;
-    color: #FFFFFF;
+    color: var(--white);
 }
 
 .footer{
@@ -222,7 +236,7 @@ body{
     height: 252px;
     left: 0px;
     top: 2097px;
-    background: #2F303A;
+    background-color: var(--grey);
     padding-top: 60px;
 }
     
@@ -236,7 +250,7 @@ body{
     font-weight: bold;
     font-size: 26px;
     line-height: 31px;
-    color: white;
+    color: var(--white);
     margin-left: 215px;
     text-decoration: none;   
         
@@ -261,23 +275,28 @@ body{
 }
 
 .btn{
-    color: black;
+    color: var(--black);
     background: #F5F4FA;
 }
 
 .btn:hover{
-    color: white;
+    color: var(--white);
     background-color: var(--blue);
 }
 
 .btn-act{
-    color: white;
+    color: var(--white);
     background-color: var(--blue);
 
 }
 
-.portfolio-img{
+.portfolio-img-section{
     list-style: none;
+    
+}
+
+.portfolio-img{
+    text-decoration: none;
 }
 
 .ptext-portf{
@@ -286,7 +305,7 @@ font-weight: normal;
 font-size: 16px;
 line-height: 30px;
 letter-spacing: 0.03em;
-color: #757575;
+color: var(--grey2);
 }
 
 .portfolio-h3{
@@ -295,6 +314,6 @@ font-weight: bold;
 font-size: 18px;
 line-height: 36px;
 letter-spacing: 0.06em;
-color: #212121;
+color: var(--grey2);
 
 }
